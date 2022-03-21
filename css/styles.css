@@ -107,20 +107,6 @@ body {
   display: inline-flex;
   align-items: center;
 }
-.icon-envelope::before {
-  content: '';
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-  background-image: url(../images/envelope\ 1.svg);
-}
-.icon-smartphone::before {
-  content: '';
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  background-image: url(../images/smartphone\ 1.svg);
-}
 
 .footer-contact {
   font-style: normal;
