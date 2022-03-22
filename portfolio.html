@@ -24,7 +24,7 @@
           <a class="header-logotype link" href="./"><span class="header-logo">Web</span>Studio</a>
           <ul class="header-nav-list list">
             <li class="header-nav-item">
-              <a class="header-nav-link link" href="./index.html">Студия</a>
+              <a class="header-nav-link link" href="">Студия</a>
             </li>
             <li class="header-nav-item">
               <a class="header-nav-link link" href="./portfolio.html">Портфолио</a>
@@ -36,10 +36,20 @@
         </nav>
         <ul class="header-list list">
           <li class="header-item">
-            <a class="header-contact link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="header-contact link" href="mailto:info@devstudio.com">
+              <svg class="header-icon-envelope">
+                <use href="./images/icons.svg#envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
           </li>
           <li class="header-item">
-            <a class="header-contact link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="header-contact link" href="tel:+380961111111">
+              <svg class="header-icon-smartphone">
+                <use href="images/icons.svg#smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -183,17 +193,52 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
-        <a class="footer-logotype link" href="/"><span class="footer-logo">Web</span>Studio</a>
-        <address class="footer-adress">г. Киев, пр-т Леси Украинки, 26</address>
-        <ul class="footer-list list">
-          <li class="footer-item">
-            <a class="footer-contact link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li class="footer-item">
-            <a class="footer-contact link" href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
+      <div class="container footer-social">
+        <div>
+          <a class="footer-logotype link" href="/"><span class="footer-logo">Web</span>Studio</a>
+          <address class="footer-adress">г. Киев, пр-т Леси Украинки, 26</address>
+          <ul class="footer-list list">
+            <li class="footer-item">
+              <a class="footer-contact link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-contact link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-social-icons">
+          <h3 class="footer-social-title">Присоединяйтесь</h3>
+          <ul class="footer-social-list list">
+            <li class="footer-social-item">
+              <a class="footer-social-link" href="">
+                <svg class="footer-social-icon" width="20px" height="20px">
+                  <use href="images/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a class="footer-social-link" href="">
+                <svg class="footer-social-icon" width="20px" height="20px">
+                  <use href="images/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a class="footer-social-link" href="">
+                <svg class="footer-social-icon" width="20px" height="20px">
+                  <use href="images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a class="footer-social-link" href="">
+                <svg class="footer-social-icon" width="20px" height="20px">
+                  <use href="images/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
