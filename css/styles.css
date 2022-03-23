@@ -12,7 +12,7 @@
 body {
   font-family: roboto, sans-serif;
   color: var(--primary-text-color);
-  background-color: #e5e5e5;
+  background-color: #ffffff;
 }
 
 /* logo */
@@ -165,13 +165,14 @@ body {
   color: #ffffff;
 }
 
-/* buttons */
+/* button */
 
 .hero-btn {
   margin-top: 30px;
   padding: 10px 32px;
   border: none;
   border-radius: 4px;
+
   font-family: inherit;
   font-style: normal;
   font-weight: 700;
@@ -179,9 +180,7 @@ body {
   line-height: 1.9;
   letter-spacing: 0.06em;
   cursor: pointer;
-}
-.hero-btn:hover,
-.hero-btn:focus {
+
   background-color: #2196f3;
   color: #ffffff;
 }
@@ -367,10 +366,11 @@ body {
   width: 44px;
   height: 44px;
 }
-.comand-social-item + .social-item {
+.comand-social-item + .comand-social-item {
   margin-left: 10px;
 }
-.comand-social-link:hover {
+.comand-social-link:hover,
+.comand-social-link:focus {
   fill: #ffffff;
   background-color: #2196f3;
 }
@@ -412,9 +412,9 @@ body {
   border-radius: 4px;
   fill: #afb1b8;
 }
-.clients-icon {
-}
-.clients-link:hover {
+
+.clients-link:hover,
+.clients-link:focus {
   border: 1px solid #2196f3;
 
   fill: #2196f3;
@@ -488,7 +488,8 @@ body {
   fill: #ffffff;
   background-color: rgba(255, 255, 255, 0.1);
 }
-.footer-social-link:hover {
+.footer-social-link:hover,
+.footer-social-link:focus {
   background-color: #2196f3;
 }
 .footer-social-item + .footer-social-item {
